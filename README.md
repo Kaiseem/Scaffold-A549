@@ -50,6 +50,17 @@ arr4=np.load(r'test\sf_a549_21_Label.npy').transpose((1,2,0))[:,:,::-1]
 volshow(arr4,label=True)
 ````
 
+## Citation
+
+If you would like to use the datasets, please use the following BibTeX entry.
+
+    @inproceedings{yao2021adgan,
+      title={AD-GAN: End-to-end Unsupervised Nuclei Segmentation with Aligned Disentangling Training},
+      author={Kai Yao and Kaizhu Huang and Jie Sun and Curran Jude},
+      booktitle={arXiv preprint arXiv:2107.11022},
+      year={2021}
+    }
+
 ## Contact
 
 Please feel free to contact us with any questions, suggestions or comments:
