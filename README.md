@@ -20,6 +20,20 @@ Install `mayavi` with `pip` for visualization
 ```
 python -m pip install mayavi
 ```
+### Usage
+
+````python
+import numpy as np
+
+# load the image
+arr1=np.load(r'train\sf_a549_05.npy')
+print(arr1.shape, arr1.dtype) #(64, 512, 512), np.uint8
+
+# load the ground truth
+arr2=np.load(r'test\sf_a549_21_Label.npy')
+print(arr2.shape, arr2.dtype) #(64, 512, 512), np.int32
+print(np.unique(arr2))
+````
 
 ### Visualization
 
@@ -28,12 +42,12 @@ from visual_tools import volshow
 import numpy as np
 
 # visualize the test image
-arr1=np.load(r'test\sf_a549_21.npy').transpose((1,2,0))[:,:,::-1]
-volshow(arr1,label=False)
+arr3=np.load(r'test\sf_a549_21.npy').transpose((1,2,0))[:,:,::-1]
+volshow(arr3,label=False)
 
 # visualize the ground truth
-arr2=np.load(r'test\sf_a549_21_Label.npy').transpose((1,2,0))[:,:,::-1]
-volshow(arr2,label=True)
+arr4=np.load(r'test\sf_a549_21_Label.npy').transpose((1,2,0))[:,:,::-1]
+volshow(arr4,label=True)
 ````
 
 ## Contact
