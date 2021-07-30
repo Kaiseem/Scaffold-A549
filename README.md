@@ -4,6 +4,8 @@ This repository contains scripts for inspection, preparation, and visualization 
 
 Dataset download are available at:  [Github](https://github.com/Kaiseem/Scaffold-A549/releases/download/v1.0/scaffold_a549.zip)
 
+<img src='E:/image.gif' width=300>  <img src='E:/label.gif'  width=300>
+
 ## News
 - [2021/07/30] We release the Scaffold-A549 datasets.
 
@@ -21,7 +23,18 @@ python -m pip install mayavi
 
 ### Visualization
 
-TODO
+````python
+from visual_tools import volshow
+import numpy as np
+
+# visualize the test image
+arr1=np.load(r'test\sf_a549_21.npy').transpose((1,2,0))[:,:,::-1]
+volshow(arr1,label=False)
+
+# visualize the ground truth
+arr2=np.load(r'test\sf_a549_21_Label.npy').transpose((1,2,0))[:,:,::-1]
+volshow(arr2,label=True)
+````
 
 ## Contact
 
