@@ -54,16 +54,15 @@ volshow(arr4,label=True)
 
 If you would like to use the datasets, please use the following BibTeX entry.
 
-﻿@Article{Yao2021, 
-author={Yao, Kai and Huang, Kaizhu and Sun, Jie and Jing, Linzhi and Huang, Dejian and Jude, Curran},
-title={Scaffold-A549: A Benchmark 3D Fluorescence Image Dataset for Unsupervised Nuclei Segmentation},
+````bib
+@Article{Yao2021A549, 
+author={Yao, Kai and Huang, Kaizhu and Sun, Jie and Jing, Linzhi and Huang, Dejian and Jude, Curran}, 
+title={Scaffold-A549: A Benchmark 3D Fluorescence Image Dataset for Unsupervised Nuclei Segmentation}, 
 journal={Cognitive Computation},
-year={2021},
-month={Nov},
-day={03},
-doi={10.1007/s12559-021-09944-4}
+year={2021}, 
+doi={10.1007/s12559-021-09944-4},
 }
-​	
+````
 
 ## Contact
 
