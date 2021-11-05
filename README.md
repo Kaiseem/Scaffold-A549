@@ -54,12 +54,16 @@ volshow(arr4,label=True)
 
 If you would like to use the datasets, please use the following BibTeX entry.
 
-    @inproceedings{yao2021adgan,
-      title={AD-GAN: End-to-end Unsupervised Nuclei Segmentation with Aligned Disentangling Training},
-      author={Kai Yao and Kaizhu Huang and Jie Sun and Curran Jude},
-      booktitle={arXiv preprint arXiv:2107.11022},
-      year={2021}
+﻿    @Article{Yao2021,
+    author={Yao, Kai and Huang, Kaizhu and Sun, Jie and Jing, Linzhi and Huang, Dejian and Jude, Curran},
+    title={Scaffold-A549: A Benchmark 3D Fluorescence Image Dataset for Unsupervised Nuclei Segmentation},
+    journal={Cognitive Computation},
+    year={2021},
+    month={Nov},
+    day={03},
+    doi={10.1007/s12559-021-09944-4}
     }
+	
 
 ## Contact
 
